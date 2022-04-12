@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+}
+.intro{
+    padding: 20px;
+    margin: 20px 0;
+}
+img{
+    margin: 0 50%;
+    transform: translateX(-50%);
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #222;
+    text-shadow: 3px 3px  3px rgba(158, 158, 158, 0.733);
+}
+
+/* INFO */
+.info{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    font-size: 1.17rem;
+}
+
+hr{
+    margin: 10px 0;
+}
+
+.perfil{
+    margin-top: 30px;
+}
+
+.perfil h3{
+    border: 1px solid rgba(158, 158, 158, 0.733);
+    margin-bottom: 10px;
+}
+
+.perfil > p{
+    text-align: justify;
+}
+
+.formulario1{
+    margin: 0 15px;
+}
+
+.formulario1 h3{
+    padding: 15px 0;
+    font-size: 1.75rem;
+}
+
+fieldset{
+    background-color: rgba(255, 214, 102, 0.733);
+}
+
+fieldset legend{
+    font-weight: 600;
+    font-size: 1.5rem;
+       
+}
+
+.fieldset_p{
+    font-size: 1.25rem;
+    text-decoration: underline;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 2.5vmin;
+}
+
+fieldset input{
+    margin: 5px;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+fieldset label{
+    font-size: 1.15rem;
+    position: relative;
+    bottom: 7px;
+    font-family: "Lucida Sans";
+}

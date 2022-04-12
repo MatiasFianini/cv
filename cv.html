@@ -1,90 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil personal UTN</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
     <header>
         <nav>
 
         </nav>
     </header>
-<main>
-    <section>
-      <h1>Matias Fianini</h1>
-      <img src="foto.png" alt="">
-    </section>
 
-    <section class="info">
-     <p>Edad: 25</p>
-    <p>Domicilio: General Rodríguez</p>  
-     <div>
-         <p>Pasatiempos favoritos</p>
-         <ul>
-             <li>Hacer cursos</li>
-             <li>Ver series</li>
-             <li>Aprender idiomas</li>
-         </ul>
-     </div>   
+    <main>
+        <section class="intro">
+            <h1>Matias Fianini</h1>
+            <div><img src="foto.png" alt=""></div>
+        </section>
+        <!-- INFO -->
+        <section class="info">
+            <p>Edad: <strong>25</strong> </p>
+            <p>Domicilio: <strong>General Rodríguez</strong> </p>
+            <hr>
+            <div>
+                <p>Pasatiempos favoritos</p>
+                <ul>
+                    <li>Hacer cursos</li>
+                    <li>Ver series</li>
+                    <li>Aprender idiomas</li>
+                </ul>
+            </div>
 
-     <div>
-        <h3>Perfil personal</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate culpa, repellendus nemo non similique, commodi quod iusto facilis aliquam laborum officiis. Eligendi, ad sequi ea maxime esse explicabo aliquam debitis!</p>
-        </div>
-    </section>
+            <div class="perfil">
+                <h3>Perfil personal</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate culpa, repellendus nemo non
+                    similique, commodi quod iusto facilis aliquam laborum officiis. Eligendi, ad sequi ea maxime esse
+                    explicabo aliquam debitis!</p>
+            </div>
+        </section>
 
-    <section>
-        <div class="formulario1">
-            <h3>Info adicional</h3>
-            <form action="">
-                
-                <fieldset>
-                    <legend>Formulario</legend>
-                    <p>Cuentame como llegaste a este sitio</p>
-                    <input type="radio" name="fuente" id="linkedin" checked value="linkedin"> 
-                    <label for="linkedin">Linkedin</label> <br>
-                    <input type="radio" name="fuente" id="github" value="github">   
-                    <label for="github">Github </label>  <br>
-                    <input type="radio" name="fuente" id="utn" value="utn">
-                    <label for="utn"> Utn</label>  <br>
-                    <input type="radio" name="fuente" id="redes" value="redes">  
-                    <label for="redes">Redes sociales</label>
+        <section class="formulario1">
+            <div>
+                <h3>Info adicional</h3>
+                <form action="">
 
-                </fieldset>
+                    <fieldset>
+                        <legend>Formulario</legend>
+                        <p class="fieldset_p">Cuentame como llegaste a este sitio</p>
+                        <input type="radio" name="fuente" id="linkedin" checked value="linkedin">
+                        <label for="linkedin">Linkedin</label> <br>
+                        <input type="radio" name="fuente" id="github" value="github">
+                        <label for="github">Github </label> <br>
+                        <input type="radio" name="fuente" id="utn" value="utn">
+                        <label for="utn"> Utn</label> <br>
+                        <input type="radio" name="fuente" id="redes" value="redes">
+                        <label for="redes">Redes sociales</label>
 
-                <div> 
-                    <label for="fac">Nivel de Facilidad de uso del sitio</label>
-                    <select name="Facilidad" id="fac">
-                        <option value="facil">Facil</option>
-                        <option value="normal">Normal</option>
-                        <option value="dificil">Difícil</option>
-                    </select>
-                </div>
+                    </fieldset>
 
-                <h3>Contacto</h3>
-                <label for="nombreusuario">Nombre</label>
-                <input type="text" name="nombre" id="nombreusuario" required>  <br>
-                <label for="asunto">Asunto</label>
-                <input type="text" id="asunto" name="asunto" required autocomplete="off"> <br>
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="tuemail@email.com" id="email" required>  <br>
-                <input type="submit" value="enviar">
-            </form>
-        </div>
+                    <div>
+                        <label for="fac">Nivel de Facilidad de uso del sitio</label>
+                        <select name="Facilidad" id="fac">
+                            <option value="facil">Facil</option>
+                            <option value="normal">Normal</option>
+                            <option value="dificil">Difícil</option>
+                        </select>
+                    </div>
 
-        
-            
-    </section>
-
-
+                    <h3>Contacto</h3>
+                    <label for="nombreusuario">Nombre</label>
+                    <input type="text" name="nombre" id="nombreusuario" required> <br>
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto" required autocomplete="off"> <br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="tuemail@email.com" id="email" required> <br>
+                    <input type="submit" value="enviar">
+                </form>
+            </div>
 
 
-</main>
-<footer>
 
-</footer>
+        </section>
+
+
+
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
