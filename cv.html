@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil personal UTN</title>
     <link rel="stylesheet" href="estilos.css">
+
+    <!-- FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -29,9 +34,9 @@
             <div>
                 <p>Pasatiempos favoritos</p>
                 <ul>
-                    <li>Hacer cursos</li>
-                    <li>Ver series</li>
-                    <li>Aprender idiomas</li>
+                    <li class="lista">Hacer cursos</li>
+                    <li class="lista">Ver series</li>
+                    <li class="lista">Aprender idiomas</li>
                 </ul>
             </div>
 
@@ -62,7 +67,7 @@
 
                     </fieldset>
 
-                    <div>
+                    <div class="facilidad">
                         <label for="fac">Nivel de Facilidad de uso del sitio</label>
                         <select name="Facilidad" id="fac">
                             <option value="facil">Facil</option>
@@ -71,13 +76,20 @@
                         </select>
                     </div>
 
-                    <h3>Contacto</h3>
-                    <label for="nombreusuario">Nombre</label>
-                    <input type="text" name="nombre" id="nombreusuario" required> <br>
-                    <label for="asunto">Asunto</label>
-                    <input type="text" id="asunto" name="asunto" required autocomplete="off"> <br>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" placeholder="tuemail@email.com" id="email" required> <br>
+                    <div class="contact-box">
+                        <h3>Contacto</h3>
+                        <div class="contact-box_fields">
+                            <label for="nombreusuario">Nombre</label>
+                            <input type="text" name="nombre" id="nombreusuario" required> 
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" name="asunto" required autocomplete="off"> 
+                            <label for="email">Email</label>
+                            <input type="email" name="email" placeholder="tuemail@email.com" id="email" required>
+                        </div>
+
+                    </div>
+
+
                     <input type="submit" value="enviar">
                 </form>
             </div>
